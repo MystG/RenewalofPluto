@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/PlayerControlTest.unity
+- path: Assets/Renewal.unity
   isLoaded: 1
   isActive: 1

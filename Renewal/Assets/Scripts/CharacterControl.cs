@@ -4,13 +4,18 @@ using UnityEngine;
 
 public class CharacterControl : MonoBehaviour {
 
-    public float moveSpeed;
+    public float moveSpeed; //speed the character moves at
+    public float jumpForce; //force with which the player jumps when Space is pressed
+    public float fallAccel; //additional downward acceleration (aside from gravity), applied to the player when falling while Space is not held
 
     private Rigidbody rb;
+
+    private bool grounded;
 
     // Use this for initialization
     void Start () {
         rb = GetComponent<Rigidbody>();
+        grounded = true;
     }
 	
 	// Update is called once per frame
@@ -40,5 +45,26 @@ public class CharacterControl : MonoBehaviour {
         }
         netVel = netVel.normalized * moveSpeed;
         rb.velocity = new Vector3(netVel.x, rb.velocity.y, netVel.z);
+
+        //when player presses Space while character is on the ground, add a jump impulse
+        if (Input.GetKeyDown(KeyCode.Space) && grounded)
+        {
+            rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+        }
+        //while player is not on ground ad Space is not held, add an additional acceleration downward
+        if (!Input.GetKey(KeyCode.Space) && !grounded)
+        {
+            rb.AddForce(-1 * Vector3.up * fallAccel, ForceMode.Acceleration);
+        }
+    }
+
+    void OnCollisionEnter(Collision other)
+    {
+        grounded = true;
+    }
+
+    void OnCollisionExit(Collision other)
+    {
+        grounded = false;
     }
 }

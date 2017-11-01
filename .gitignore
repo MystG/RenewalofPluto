@@ -1,10 +1,10 @@
- Temp/
+ Renewal/Temp/
  Renewal/Library/
- obj/
+ Renewal/obj/
  
- *.csproj
- *.unityproj
- *.sln
- *.user
- *.userprefs
- *.DS_store
+ Renewal/*.csproj
+ Renewal/*.unityproj
+ Renewal/*.sln
+ Renewal/*.user
+ Renewal/*.userprefs
+ Renewal/*.DS_store

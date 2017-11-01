@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class ThirdPersonCameraControl : MonoBehaviour {
 
-    public float yFocus;
-    public float upBounds;
-    public float downBounds;
-    public float maxBackDistance;
-    public float maxRotateSpeed;
-    public GameObject player;
+    public float yFocus; //units above the player that the camera will look at
+    public float upBounds; //maximum units above the player (y axis) that the camera can be above the focus point
+    public float downBounds; //maximum units below the player (y axis) that the camera can be above the focus point
+    public float maxBackDistance; //maximum distance that the camera can befrom the focuspoint
+    public float maxRotateSpeed; //max degrees per second that the camera rotates
+    public GameObject player; //player that this camera follows
 
 	// Use this for initialization
 	void Start () {

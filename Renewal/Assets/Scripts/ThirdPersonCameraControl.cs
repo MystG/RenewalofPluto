@@ -33,8 +33,7 @@ public class ThirdPersonCameraControl : MonoBehaviour {
         RaycastHit hit;
         if (Physics.Raycast(focuspoint, focusToCamera, out hit, maxBackDistance))
         {
-            float hitDistance = Vector3.Magnitude(transform.position = focuspoint + focusToCamera);
-            transform.position = focuspoint + focusToCamera * hitDistance;
+            transform.position = hit.point;
         }
 
         //clamp the cameras hight to between downBounds and upBounds of the player's position

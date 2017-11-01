@@ -58,7 +58,7 @@ public class CharacterControl : MonoBehaviour {
         }
     }
 
-    void OnCollisionEnter(Collision other)
+    void OnCollisionStay(Collision other)
     {
         grounded = true;
     }

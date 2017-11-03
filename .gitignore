@@ -17,6 +17,8 @@
  Renewal/[Bb]uild/
  Renewal/[Bb]uilds/
  Renewal/Assets/AssetStoreTools*
+ Renewal/v15/
+ Renewal/.vs/
 
  Renewal/*.csproj
  Renewal/*.unityproj

@@ -14,19 +14,27 @@ public class aiEasy : MonoBehaviour {
     Rigidbody theRigidBody;
     Renderer myRender;
     static Animator anim;
-    
+    public Rigidbody blob;
+    private float currentTime = 0.0f;
+
     // Use this for initialization
-	void Start () {
+    void Start () {
         myRender = GetComponent<Renderer>();
         theRigidBody = GetComponent<Rigidbody>();
         anim = GetComponent<Animator>();
+        blob = GetComponent<Rigidbody>();
 	}
 	
 	// Update is called once per frame
 	void FixedUpdate () {
         //attack radius logic  
         fpsTargetDistance = Vector3.Distance(playerTarget.position, transform.position);
-        if (fpsTargetDistance<enemyLookDistance)
+        if (fpsTargetDistance < attackDistance)
+        {
+            myRender.material.color = Color.red;
+            enemyAttack();
+        }
+        else if(fpsTargetDistance < enemyLookDistance)
         {
             myRender.material.color = Color.yellow;
             lookAtPlayer();
@@ -34,13 +42,9 @@ public class aiEasy : MonoBehaviour {
             anim.SetBool("isIdle", false);
             anim.SetBool("isWalking", true);
         }
-        else if (fpsTargetDistance < attackDistance)
-        {
-            myRender.material.color = Color.red;
-            enemyAttack();
-        }
         else
         {
+            myRender.material.color = Color.grey;
             wonder();
         }
 	}
@@ -53,7 +57,6 @@ public class aiEasy : MonoBehaviour {
 
     void enemyAttack()
     {
-        float currentTime = 0.0f;
         //define attack movement pattern
         //define attack rate 
         if (Time.time > currentTime)
@@ -62,7 +65,8 @@ public class aiEasy : MonoBehaviour {
             anim.SetBool("isWalking", false);
             anim.SetBool("isAttacking", true);
             currentTime = Time.time + aggression;
-            GameObject clone = Instantiate(projectile, transform.position, transform.rotation) as GameObject;
+            print("shot");
+            Rigidbody clone = Instantiate(blob, transform.position, transform.rotation) as Rigidbody;
         }
         // make controllable for difficulty
     }

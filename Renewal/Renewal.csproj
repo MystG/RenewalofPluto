@@ -195,6 +195,7 @@
     <Compile Include="Assets\Scripts\aiEasy.cs" />
     <Compile Include="Assets\Scripts\CharacterControl.cs" />
     <Compile Include="Assets\Scripts\Movement.cs" />
+    <Compile Include="Assets\Scripts\projectileScript.cs" />
     <Compile Include="Assets\Scripts\ThirdPersonCameraControl.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

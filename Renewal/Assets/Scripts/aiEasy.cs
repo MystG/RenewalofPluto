@@ -10,11 +10,13 @@ public class aiEasy : MonoBehaviour {
     public float attackDistance;
     public float damping;
     public float aggression; //delta time between each attack
+    public float projectileSpeed;
     public Transform playerTarget;
     Rigidbody theRigidBody;
     Renderer myRender;
     static Animator anim;
-    public Rigidbody blob;
+    public GameObject blob;
+    public Transform projector;
     private float currentTime = 0.0f;
 
     // Use this for initialization
@@ -22,7 +24,7 @@ public class aiEasy : MonoBehaviour {
         myRender = GetComponent<Renderer>();
         theRigidBody = GetComponent<Rigidbody>();
         anim = GetComponent<Animator>();
-        blob = GetComponent<Rigidbody>();
+        //blob = GetComponent<GameObject>();
 	}
 	
 	// Update is called once per frame
@@ -58,15 +60,16 @@ public class aiEasy : MonoBehaviour {
     void enemyAttack()
     {
         //define attack movement pattern
-        //define attack rate 
+        // attack rate 
         if (Time.time > currentTime)
         {
             anim.SetBool("isIdle", false);
             anim.SetBool("isWalking", false);
             anim.SetBool("isAttacking", true);
-            currentTime = Time.time + aggression;
             print("shot");
-            Rigidbody clone = Instantiate(blob, transform.position, transform.rotation) as Rigidbody;
+            GameObject clone = (GameObject)Instantiate(blob, projector.position, projector.rotation);
+            clone.GetComponent<Rigidbody>().velocity = transform.TransformDirection(projector.forward * projectileSpeed);
+            currentTime = Time.time + aggression;
         }
         // make controllable for difficulty
     }

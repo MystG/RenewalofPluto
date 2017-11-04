@@ -15,7 +15,7 @@ public class ThirdPersonCameraControl : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        focusToCamera = (transform.position - ( player.transform.position + new Vector3(0, yFocus, 0) )).normalized * maxBackDistance;
+        focusToCamera = (transform.position - ( player.transform.position + new Vector3(0, yFocus, 0) )).normalized;
     }
 	
 	// Update is called once per frame
@@ -27,17 +27,22 @@ public class ThirdPersonCameraControl : MonoBehaviour {
         /*
         //get normalized vector in direction of focuspoint to camera
         Vector3 focusToCamera = (transform.position - focuspoint).normalized;
-        */
 
         //set the camera's distance from focuspoint to maxDistance
         transform.position = focuspoint + focusToCamera * maxBackDistance;
-        
+        */
+
         //if a ray from the focuspoint toward the camera with the length of the camera's max distance dits a collider,
         //move the camera to the hit point so there is nothing between the player and the camera.
         RaycastHit hit;
         if (Physics.Raycast(focuspoint, focusToCamera, out hit, maxBackDistance))
         {
             transform.position = hit.point;
+        }
+        //otherwise, set the camera's distance from focuspoint to maxDistance
+        else
+        {
+            transform.position = focuspoint + focusToCamera * maxBackDistance;
         }
 
         //clamp the cameras hight to between downBounds and upBounds of the player's position

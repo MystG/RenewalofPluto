@@ -193,6 +193,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\aiEasy.cs" />
+    <Compile Include="Assets\Scripts\BulletScript.cs" />
     <Compile Include="Assets\Scripts\CharacterControl.cs" />
     <Compile Include="Assets\Scripts\Movement.cs" />
     <Compile Include="Assets\Scripts\projectileScript.cs" />

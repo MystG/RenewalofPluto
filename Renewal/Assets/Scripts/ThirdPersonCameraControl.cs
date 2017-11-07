@@ -11,9 +11,11 @@ public class ThirdPersonCameraControl : MonoBehaviour {
     public float maxRotateSpeed; //max degrees per second that the camera rotates
     public GameObject player; //player that this camera follows
 
+    private Vector3 focusToCamera;
+
 	// Use this for initialization
 	void Start () {
-
+        focusToCamera = (transform.position - ( player.transform.position + new Vector3(0, yFocus, 0) )).normalized;
     }
 	
 	// Update is called once per frame
@@ -22,18 +24,25 @@ public class ThirdPersonCameraControl : MonoBehaviour {
         //set the focuspoint to yOffest above the player's position
         Vector3 focuspoint = player.transform.position + new Vector3(0, yFocus, 0);
 
+        /*
         //get normalized vector in direction of focuspoint to camera
         Vector3 focusToCamera = (transform.position - focuspoint).normalized;
 
         //set the camera's distance from focuspoint to maxDistance
         transform.position = focuspoint + focusToCamera * maxBackDistance;
-        
+        */
+
         //if a ray from the focuspoint toward the camera with the length of the camera's max distance dits a collider,
         //move the camera to the hit point so there is nothing between the player and the camera.
         RaycastHit hit;
         if (Physics.Raycast(focuspoint, focusToCamera, out hit, maxBackDistance))
         {
             transform.position = hit.point;
+        }
+        //otherwise, set the camera's distance from focuspoint to maxDistance
+        else
+        {
+            transform.position = focuspoint + focusToCamera * maxBackDistance;
         }
 
         //clamp the cameras hight to between downBounds and upBounds of the player's position
@@ -45,10 +54,12 @@ public class ThirdPersonCameraControl : MonoBehaviour {
         if (horiz!=0)
         {
             transform.RotateAround(focuspoint, transform.up, horiz * maxRotateSpeed * Time.deltaTime);
+            focusToCamera = (transform.position - focuspoint).normalized;
         }
         if (vert!=0)
         {
             transform.RotateAround(focuspoint, transform.right, -vert * maxRotateSpeed * Time.deltaTime);
+            focusToCamera = (transform.position - focuspoint).normalized;
         }
 
         //have the camera look at focuspoint

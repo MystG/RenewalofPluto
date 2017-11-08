@@ -28,6 +28,22 @@ ModelImporter:
     100040: root
     100042: spine1
     100044: spine2
+    100046: chest_CTRL
+    100048: head_CTRL
+    100050: l_elbow_CTRL
+    100052: l_knee_CTRL
+    100054: l_pec_CTRL
+    100056: l_shoulder_CTRL
+    100058: master_CTRL
+    100060: neck_CTRL
+    100062: pelvic_CTRL
+    100064: r_elbow_CTRL
+    100066: r_knee_CTRL
+    100068: r_pec_CTRL
+    100070: r_shoulder_CTRL
+    100072: root_CTRL
+    100074: spine1_CTRL
+    100076: spine2_CTRL
     400000: chest
     400002: clavicle
     400004: geo
@@ -51,6 +67,22 @@ ModelImporter:
     400040: root
     400042: spine1
     400044: spine2
+    400046: chest_CTRL
+    400048: head_CTRL
+    400050: l_elbow_CTRL
+    400052: l_knee_CTRL
+    400054: l_pec_CTRL
+    400056: l_shoulder_CTRL
+    400058: master_CTRL
+    400060: neck_CTRL
+    400062: pelvic_CTRL
+    400064: r_elbow_CTRL
+    400066: r_knee_CTRL
+    400068: r_pec_CTRL
+    400070: r_shoulder_CTRL
+    400072: root_CTRL
+    400074: spine1_CTRL
+    400076: spine2_CTRL
     4300000: geo
     9500000: //RootNode
     13700000: geo

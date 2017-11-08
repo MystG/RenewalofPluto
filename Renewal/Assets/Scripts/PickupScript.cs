@@ -5,11 +5,8 @@ using UnityEngine.UI;
 
 public class PickupScript : MonoBehaviour {
 
-    public string message;
     public float activeDistance;
-    public float textDuration;
-    public Vector2 rectSize;
-    public Color textCol;
+	public float textDuration;
     public GameObject player;
 
     private bool visible;
@@ -18,8 +15,13 @@ public class PickupScript : MonoBehaviour {
     private bool activate;
     private float timer;
 
+	public int startL;
+	public int endL;
+	
     public GameObject manager; //the manager that this item signals when it is picked up
+	public GameObject textManager;
     private ItemManager managerScript;
+	private TextBoxManager manageTexts;
 
 	// Use this for initialization
 	void Start () {
@@ -28,6 +30,8 @@ public class PickupScript : MonoBehaviour {
         activate = false;
         timer = 0;
         managerScript = manager.GetComponent<ItemManager>();
+		manageTexts = textManager.GetComponent<TextBoxManager>();
+		
     }
 	
 	// Update is called once per frame
@@ -40,7 +44,9 @@ public class PickupScript : MonoBehaviour {
         {
 			if(!activate)
 			{
+				manageTexts.getNumbers(startL, endL);
                 managerScript.DecrementItems();
+		
 			}
             activate = true;
         }
@@ -55,7 +61,7 @@ public class PickupScript : MonoBehaviour {
         }
     }
 
-    private void OnGUI()
+ /*   private void OnGUI()
     {
         if (activate)
         {
@@ -64,5 +70,5 @@ public class PickupScript : MonoBehaviour {
 			Vector3 x = new Vector3(transform.position.x + 50, transform.position.y + 15, transform.position.z);
             GUI.Label(new Rect(x, rectSize), message, style);
         }
-    }
+    }*/
 }

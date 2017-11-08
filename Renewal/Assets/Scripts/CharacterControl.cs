@@ -75,7 +75,7 @@ public class CharacterControl : MonoBehaviour {
         }
         
         //shooting control
-        if (Input.GetMouseButtonDown(0) && fireTimer <= 0)
+       /* if (Input.GetMouseButtonDown(0) && fireTimer <= 0)
         {
             //transform.forward = cameraBearing;
 
@@ -102,7 +102,7 @@ public class CharacterControl : MonoBehaviour {
 
             fireTimer = fireCooldown;
         }
-        fireTimer = Mathf.Clamp(fireTimer - Time.deltaTime, 0, fireCooldown);
+        fireTimer = Mathf.Clamp(fireTimer - Time.deltaTime, 0, fireCooldown);*/
     }
 
     void OnCollisionStay(Collision other)
@@ -115,10 +115,10 @@ public class CharacterControl : MonoBehaviour {
         grounded = false;
     }
 
-    void OnGUI()
+   /* void OnGUI()
     {
         float xMin = (Screen.width / 2) - (crosshair.width / 2);
         float yMin = (Screen.height / 2) - (crosshair.height / 2);
         GUI.DrawTexture(new Rect(xMin, yMin, crosshair.width, crosshair.height), crosshair);
-    }
+    }*/
 }

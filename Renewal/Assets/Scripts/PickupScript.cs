@@ -38,6 +38,10 @@ public class PickupScript : MonoBehaviour {
 
         if (visible && dist <= activeDistance)
         {
+			if(!activate)
+			{
+                managerScript.DecrementItems();
+			}
             activate = true;
         }
 
@@ -46,7 +50,6 @@ public class PickupScript : MonoBehaviour {
             timer += Time.deltaTime;
             if(timer >= textDuration)
             {
-                managerScript.DecrementItems();
                 Destroy(this.gameObject);
             }
         }
@@ -58,8 +61,8 @@ public class PickupScript : MonoBehaviour {
         {
             GUIStyle style = new GUIStyle();
             style.normal.textColor = textCol;
-            Vector3 screenPos = Camera.main.WorldToScreenPoint(transform.position);
-            GUI.Label(new Rect(screenPos, rectSize), message, style);
+			Vector3 x = new Vector3(transform.position.x + 50, transform.position.y + 15, transform.position.z);
+            GUI.Label(new Rect(x, rectSize), message, style);
         }
     }
 }

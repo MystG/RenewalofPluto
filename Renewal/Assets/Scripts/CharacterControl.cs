@@ -20,11 +20,14 @@ public class CharacterControl : MonoBehaviour {
 
     private float fireTimer;
 
+    Animator anim;
+
     // Use this for initialization
     void Start () {
         rb = GetComponent<Rigidbody>();
         grounded = false;
         fireTimer = 0;
+        anim = GetComponent<Animator>();
     }
 	
 	// Update is called once per frame
@@ -58,6 +61,7 @@ public class CharacterControl : MonoBehaviour {
         }
         netVel = netVel.normalized * moveSpeed;
         rb.velocity = new Vector3(netVel.x, rb.velocity.y, netVel.z);
+        anim.SetFloat("speed", netVel.magnitude);
 
         //when player presses Space while character is on the ground, add a jump impulse
         if (Input.GetKeyDown(KeyCode.Space) && grounded)

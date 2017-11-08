@@ -1,9 +1,9 @@
 fileFormatVersion: 2
-guid: a89f422d7c633d3459af1a8c57d08ce3
-timeCreated: 1510135298
+guid: 01cc52b4d25219e4ca666b06eb977a59
+timeCreated: 1510135012
 licenseType: Free
 ModelImporter:
-  serializedVersion: 21
+  serializedVersion: 22
   fileIDToRecycleName:
     100000: pCylinder1
     100002: pCylinder2
@@ -47,10 +47,17 @@ ModelImporter:
     4300010: pCylinder5
     4300012: pCylinder6
     4300014: pCylinder7
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 4aafa4580fe78a44281c087cb3d9e14e, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -63,6 +70,7 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5

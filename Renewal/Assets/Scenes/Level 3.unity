@@ -340,6 +340,21 @@ Prefab:
       propertyPath: manager
       value: 
       objectReference: {fileID: 194737358}
+    - target: {fileID: 114151262789705928, guid: 0b269560afeb462409a6a4b3a87de124,
+        type: 2}
+      propertyPath: startL
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 114151262789705928, guid: 0b269560afeb462409a6a4b3a87de124,
+        type: 2}
+      propertyPath: endL
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 114151262789705928, guid: 0b269560afeb462409a6a4b3a87de124,
+        type: 2}
+      propertyPath: textManager
+      value: 
+      objectReference: {fileID: 1442044147}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0b269560afeb462409a6a4b3a87de124, type: 2}
   m_IsPrefabParent: 0
@@ -828,16 +843,16 @@ RectTransform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 470355388}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 17.9}
-  m_LocalScale: {x: 0.10823771, y: 0.09242671, z: 0.115293086}
+  m_LocalRotation: {x: 0.16573559, y: -0, z: -0, w: 0.98617023}
+  m_LocalPosition: {x: 0, y: 0, z: 90}
+  m_LocalScale: {x: 2.3893945, y: 2.3893936, z: 2.3893936}
   m_Children: []
   m_Father: {fileID: 380156650}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 19.080002, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -193.57, y: -187.51}
+  m_AnchoredPosition: {x: -37.814, y: -125}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &470355390
@@ -852,7 +867,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -861,18 +876,18 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 11
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
+    m_MinSize: 0
+    m_MaxSize: 218
     m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: asfewfaefaefaefaefaefaefaefae
 --- !u!222 &470355391
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -912,16 +927,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 248fd62629dc4d247ae08dd8f3c249cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: "ITEM 1: Dear Neptune, \\n As ruler of all the seas and creatures in it,
-    I beg you to hear our pleas. The narwhals have started encroaching on our feeding
-    grounds! War will be declared if they continue to trespass. We turn to you for
-    guidance in these tense and trying times. \tPlz help, \t\tThe Orcas "
   activeDistance: 15
   textDuration: 3
-  rectSize: {x: 10, y: 20}
-  textCol: {r: 0, g: 0, b: 0, a: 1}
   player: {fileID: 1486365730}
+  startL: 3
+  endL: 8
   manager: {fileID: 194737358}
+  textManager: {fileID: 1442044147}
 --- !u!23 &723393314
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1164,9 +1176,8 @@ MonoBehaviour:
   theText: {fileID: 470355390}
   textfiles: {fileID: 4900000, guid: cee83de57d7c38245b1d5010b7df729c, type: 3}
   textLines: []
-  currentLine: 1
-  endAtLine: 3
-  player: {fileID: 0}
+  currentLine: 0
+  endAtLine: 1
 --- !u!1001 &1486365729
 Prefab:
   m_ObjectHideFlags: 0
@@ -1320,16 +1331,16 @@ RectTransform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1825698991}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 18.4}
-  m_LocalScale: {x: 0.021894379, y: 0.015037705, z: 0.12243921}
+  m_LocalRotation: {x: -0.055133466, y: -0, z: -0, w: 0.998479}
+  m_LocalPosition: {x: 0, y: 0, z: 132}
+  m_LocalScale: {x: 0.79784006, y: 0.23327108, z: 0.5162238}
   m_Children: []
   m_Father: {fileID: 380156650}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -6.321, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -193.1, y: -187.4}
+  m_AnchoredPosition: {x: -20.7, y: -108.7}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1825698993
@@ -1438,6 +1449,21 @@ Prefab:
       propertyPath: textCol.b
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114151262789705928, guid: 0b269560afeb462409a6a4b3a87de124,
+        type: 2}
+      propertyPath: startL
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 114151262789705928, guid: 0b269560afeb462409a6a4b3a87de124,
+        type: 2}
+      propertyPath: endL
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 114151262789705928, guid: 0b269560afeb462409a6a4b3a87de124,
+        type: 2}
+      propertyPath: textManager
+      value: 
+      objectReference: {fileID: 1442044147}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0b269560afeb462409a6a4b3a87de124, type: 2}
   m_IsPrefabParent: 0
@@ -1499,6 +1525,21 @@ Prefab:
       propertyPath: textDuration
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 114151262789705928, guid: 0b269560afeb462409a6a4b3a87de124,
+        type: 2}
+      propertyPath: startL
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 114151262789705928, guid: 0b269560afeb462409a6a4b3a87de124,
+        type: 2}
+      propertyPath: endL
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 114151262789705928, guid: 0b269560afeb462409a6a4b3a87de124,
+        type: 2}
+      propertyPath: textManager
+      value: 
+      objectReference: {fileID: 1442044147}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0b269560afeb462409a6a4b3a87de124, type: 2}
   m_IsPrefabParent: 0

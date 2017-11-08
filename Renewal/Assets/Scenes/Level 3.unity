@@ -844,7 +844,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 470355388}
   m_LocalRotation: {x: 0.16573559, y: -0, z: -0, w: 0.98617023}
-  m_LocalPosition: {x: 0, y: 0, z: 90}
+  m_LocalPosition: {x: 0, y: 0, z: 96}
   m_LocalScale: {x: 2.3893945, y: 2.3893936, z: 2.3893936}
   m_Children: []
   m_Father: {fileID: 380156650}
@@ -852,7 +852,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 19.080002, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -37.814, y: -125}
+  m_AnchoredPosition: {x: -37.814, y: -107}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &470355390
@@ -876,7 +876,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 11
+    m_FontSize: 10
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -887,7 +887,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: asfewfaefaefaefaefaefaefaefae
+  m_Text: Jupiter
 --- !u!222 &470355391
 CanvasRenderer:
   m_ObjectHideFlags: 0

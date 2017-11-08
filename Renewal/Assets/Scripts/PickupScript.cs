@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BulletScript : MonoBehaviour {
+public class PickupScript : MonoBehaviour {
+
+    public string message;
 
 	// Use this for initialization
 	void Start () {
@@ -14,12 +16,8 @@ public class BulletScript : MonoBehaviour {
 		
 	}
 
-    void OnCollisionEnter(Collision other)
+    private void OnMouseDown()
     {
-        if (other.gameObject.tag.Equals("Enemy"))
-        {
-            //do things to the enemy
-        }
         Destroy(this.gameObject);
     }
 }

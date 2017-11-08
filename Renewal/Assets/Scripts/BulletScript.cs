@@ -20,7 +20,8 @@ public class BulletScript : MonoBehaviour {
     {
         if (other.gameObject.tag == "Enemy")
         {
-            
+            other.gameObject.GetComponent<aiEasy>().damageEnemy(damage);
+
             Destroy(this.gameObject);
         }
         Destroy(this.gameObject);

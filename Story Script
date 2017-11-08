@@ -1,0 +1,248 @@
+Idea: Pluto/Planets
+
+
+To-Do List for Script:
+* Win state text
+* Lose state text
+
+INTRO:
+
+
+        (Scene with Pluto and other planet personas)
+        JUPITER: “Pluto, the Planetary Council has decided to remove you from our ranks…”
+        NEPTUNE: “You just don’t fit in. You’re smaller than the smallest of us.”
+        VENUS: “You’re too cold and far away. And slow. Wayyy too slow making your way around the sun.”
+        JUPITER: “That being said, we are both removing you from the Planetary Council and stripping you of your title. You are no longer a planet…”
+        
+        (Scene moves to sad little Pluto, all alone in the galaxy)
+        PLUTO: “I don’t know what I did wrong! Things were going so well for me since I was accepted into the Council. Perhaps I had become too complacent and distant from the other members...this is a terrible day.”
+        (small pause w/ a very sad Pluto/Pluto persona)
+        PLUTO: “No! I will be complacent no longer! I will seek out the other planets and they will realize what an asset I truly am to the Planetary Council and this galaxy. Now, the only question is: How shall I go about proving my worth?”
+        END SCENE, OPENING OF “INTERACTIVE MENU”
+        Note: 
+* Menu world is that hazy “galaxy” world we talked about where Pluto persona can choose which planet to visit.
+* Instructions on how to walk/select an item (in this case, planet) → Attach to Pluto planet selection?
+* Selecting a planet (Neptune, Venus, Jupiter) fades screen into maze (or other puzzle!!) level
+Color codes:
+
+
+        RED -> Design
+        BLUE -> Mechanics
+        GREEN -> Script
+        PURPLE -> Item & Description
+        ORANGE -> Choices, moments pushing towards end state
+
+
+LEVELS:
+1. Neptune
+Color scheme is blues/greens. Sea life in the “walls” of the maze. Potentially shooting enemies here within the maze. Simple exploring of this maze (no jumping over objects, just walking/running, collecting clues, potentially shooting enemies with ice)
+PLUTO: “Of course it would not be so easy to reach Neptune. I’ll traverse his entry maze so I may speak to him openly.”
+Note:
+* Instructions to walk forward and complete the maze
+* Pluto finds a clue/item before the first turn in the maze
+        PLUTO: “What’s this?”
+
+
+        ITEM 1: Dear Neptune,
+                As ruler of all the seas and creatures in it, I beg you to hear our pleas. The narwhals have started encroaching on our feeding grounds! War will be declared if they continue to trespass. We turn to you for guidance in these tense and trying times.
+        Plz help,
+                The Orcas
+
+
+        PLUTO: “Well, well. Looks like there’s a bit of strife within Neptune’s kingdom. I wonder if I’ll discover anything else while I’m finding my way.”
+        (Continues to collect items/clues. Each clue can be a bit of the “issue” and/or facts about the planet itself/the Roman God persona)
+
+
+        ITEM 2: My Lord,
+                Our pods are being chased away from high northern waters. The shifting ice floes make it too dangerous to raise young.
+        Help is politely requested,
+                The Narwhals
+
+
+        ITEM 3: ~ A weather report ~
+                “Ice in the north is breaking apart at an alarming rate. Many species in the area have been affected. Could this be caused by...the rising temperatures of the sea?”
+
+
+        (Pluto reaches end of maze/puzzle game to find Neptune persona (sitting on a chair/throne?) )
+
+
+        Neptune: “Pluto! I am surprised you are here. Quickly state your business so I can get on with solving the problems of my kingdom”
+        Pluto: “Neptune, I am actually here to offer my assistance. I realize you are dealing with two tribes of subjects on the brink of war with one another…”
+        Neptune: “My! How have you heard so much?? No matter. If you can help me solve this problem, I would be grateful.”
+        
+(Enters choice-based conversation, essentially giving advice to Neptune on what to do with the Narwhals and Orcas)
+        Neptune: “The Narwhals seen to be causing all of this.”
+        PLAYER CHOICE:
+1. “They are trying to expand their domain and take over the northern seas.”
+2. “They are being forced from their normal breeding areas and hunting grounds.”
+                Neptune: “I see. And the Orcas. What do you believe their part is in this?”
+                PLAYER CHOICE:
+1. “They are to blame too! Both parties are guilty!”
+2. “The Orcas are not to blame, they do not understand the cause of the situation.”
+3. “Moot point. Show them your power and they will forget their strife.”
+        
+                ~NOTE~ Choice A and C cause an INCORRECT resolution
+                Neptune: “You have given me much to think on. What do you suggest I do?”
+1. “The seas are warming. Perhaps you should look into mitigating the problem of dangerous ice floes? The narwhals would then remain within their territory.”
+2. “A large storm within the sea should set them straight.”
+        (Correct answers result is Neptune’s friendship and Pluto’s heart being put back together just a little bit)
+                CORRECT: “Your counsel was appreciated. I will taken action to amend this unfortunate scenario”
+                INCORRECT: “Your views are deplorable. Do you really think your methods would effectively run a kingdom? Leave this place! We removed you from the Council for good reason.”
+                
+        Here we then show an evaluation on how the player did, and if they pass then Neptune will vouch for them to come back to the solar system, if not then Neptune will be indifferent to Pluto’s existence.
+
+
+        RETURN TO INTERACTIVE MENU
+        **Travel to Venus**
+        Note: Passing by Jupiter, we can see it could be selected, just not right now
+
+
+1. Venus
+(Color scheme is lighter pinkish-gray/lavender/purples. Walls of the maze swirl, maybe showing some hearts or similar? Simple exploring of this maze, in addition to jumping over objects. NO shooting of enemies here)
+
+
+PLUTO: “Venus. Perhaps she will have something I can help with to regain her trust and friendship?”
+Note:
+* Instructions to walk forward and complete the maze
+* Pluto finds a jump before the first turn in the maze. Instructions to jump
+* Finds first item...
+
+
+        PLUTO: “This is an intriguing object” (Pile of heart arrowheads? Put some ideas here!)
+* Finds second item...
+
+
+        ITEM: Dearest Venus,
+                You are the fairest, most beautiful of all in this galaxy. Nay, you are the fairest in all the universe and beyond. There is no comparison. I only wish to treasure you ‘til the end of days. I don’t underSTAND WHY you’re SO...ah, sorry.
+                Please forgive me…
+
+
+        PLUTO: “Hmm no signature at the end.”
+        (Continues to collect items/clues. Each clue can be a bit of the “issue” and/or facts about the planet itself/the Roman Goddess persona. In this case, it could be details of her fight/issues with Mars, her lover (NOT her husband). Note to keep in mind his fiery temper)
+        ITEM 3: Broken warhammer
+
+
+        ITEM 2: My love,
+                I am at a loss. My successes in battle do not seem to be as easy to obtain as they once were...MY POWER MUST SUBDUE ALL.
+
+
+        (Pluto reaches end of maze/puzzle game to find Venus persona in a foul mood(sitting on a chair/throne?) )
+        Venus: “Oh, what do YOU want? I am quite busy with my own problems, I do not need yours added to the mix...”
+        Pluto: “Venus, I apologize for the intrusion…perhaps I can assist with one of your problems? I am a good listener.”[a]
+        Venus: “You impertinent little…*sigh* I having trouble with Mars. He has irritated me for the last time.”
+        
+(Enters choice-based conversation, essentially giving advice to Venus on what to do with her relationship with Mars)
+        Venus: “Mars has been in a more volcanic mood than usual.”
+        PLAYER CHOICE:
+1. “Mars might be feeling slightly underpowered as of late.”
+2. “Perhaps he desires time and space away from you.”
+3. “He sounds like a fool.”
+        ~NOTE~ A or B advances. Choice C results in “incorrect overall”
+                Venus: “Hmm. I just don’t know if I should give him another chance. What do you think could help abate his temper?”
+1. “Tell him to stop being so explosive.”
+2. “Ask Neptune to send a giant wave to cool his temper.”
+3. “A new weapon might be of interest to him.”
+        ~NOTE~ A and B result in “INCORRECT overall”
+                *IF OPTION C IS CHOSEN*
+                Venus: “And I suppose you have an idea?”
+                PLAYER CHOICE:
+1. Present broken warhammer to Venus
+2. “Nope, no idea. I’m sure you’ll figure out something”
+                *IF OPTION A CHOSEN*
+                Venus: “A warhammer? But it’s broken! Ah, I see. I will mend his warhammer and add in a dash of love. Perhaps I will recruit Vulcan’s help as well….”
+        (Correct answers result is Venus’ friendship and Pluto’s heart being put back together just a little bit more)
+                CORRECT: “I believe you have changed my outlook on the situation, Pluto. Now begone so I can attend to my troubles.”
+                INCORRECT: “You are an insolent, miniscule being. You know nothing of love. Leave my domain at once!”
+
+
+        Here we then show an evaluation on how the player did, and if they pass then Venus will vouch for them to come back to the solar system, if not then Venus will be in an even more foul mood and keep Pluto out..
+
+
+        RETURN TO MENU. ON TO JUPITER
+
+
+1. Jupiter
+(Color scheme is golds/oranges or golds/silvers. Same exploration of maze as previous. Teleporting lightning pads)
+
+
+PLUTO: “If I can rekindle my relationship with Jupiter, I will (hopefully) be able to rejoin the Planetary Council!” ← When player has succeeded with both Venus AND/OR Neptune
+Note:
+* Instructions to walk forward and complete the maze
+
+
+        ITEM 1: Dearest Europa,
+                Your beauty surpasses that of my wife. Be wary that she not catch you in the open. She must never know of our connection.
+                ~ Your Golden King
+
+
+        PLUTO: “This sounds...scandalous. I..I’m not sure what exactly I should do with this...”
+        (Continues to collect items/clues. Each clue can be a reference to another of Jupiter/Zeus’ affairs)
+
+
+        ITEM 2: My Darling Danae,
+                She is becoming suspicious. Secrecy is of the utmost importance. We will meet once again when she is busy with other affairs.
+                ~ Your Brilliant Monarch
+
+
+        ITEM 3: My Cherished Alcmena,
+                Once again I am blown away by your exquisiteness and elegance. There is no comparison in all the heavens. Why, even Venus might be envious of your grace!
+                ~ Your Gallant, Valiant, Lion-hearted Prince of Lightning
+
+
+        (Pluto reaches end of maze/puzzle game to find Jupiter persona (sitting on a chair/throne) )
+        Jupiter: “I do not appreciate your sad tiny presence in my throne room...”
+        Pluto: “Greetings Jupiter. What I have to say is quick, then I will be on my way.”
+        **Presents affair letters to Jupiter**
+        Jupiter: “What?! How did you come come across these?! Pluto, you must understand...Juno must never find out. Her insistent nagging and yelling will be impossible to deal with. Help fellow out, eh?”
+        
+(Enters choice-based scenario: Tell Juno/Hera, Keep Jupiter’s secrets)
+
+
+        PLAYER OPTIONS:
+
+
+1. Keep Jupiter’s secrets         B) Inform Juno
+
+
+        Here we then show an evaluation on how the player did, but as mentioned above either response would be correct:
+
+
+        >Telling Juno will cause her to chew out Jupiter, and will vouch for you in the Planetary Council
+                >Make a comment like, “Pluto, you decided to be righteous and showed the                 letters to Juno. She has taken note of your integrity.”
+
+
+        >Telling Jupiter will cause for him to be relieved, and grateful and instead will vouch for you
+                >Make a comment like, “You. You decided to side with the wrong-doer of love. Did you learn nothing from Venus?”
+
+
+END GAME/WIN SCENE:
+
+
+        Planetary Council meets. Accepts Pluto again or not
+
+
+        WIN STATE: 
+                At least two planets need to vouch for you at the end
+                Possibilities: 
+1. Neptune + Venus + Tell Juno
+2. Neptune - Venus + Keep secret
+3. -Neptune + Venus + Tell Juno
+4. Neptune  + Venus + Keep secret
+5. Neptune - Venus + Tell Juno
+        LOSE STATE:
+                Didn’t get the two planets to vouch for you
+                
+1)        -Neptune + Venus + Keep secret (aka lose Venus support)
+                        Neptune -> Failed 
+                        Venus -> Success
+                        Jupiter -> Side with Jupiter
+
+
+                This will cause Venus to retract her vouch for you, because she will criticize you for not having told Juno (think of it as an open secret)
+                
+2)         - Neptune - Venus + either choice (aka lost both Venus and Neptune)
+                        Neptune -> Failed
+                        Venus -> Failed
+                        Jupiter -> Doesn’t really matter
+
+

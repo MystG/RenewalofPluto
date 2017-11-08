@@ -16,8 +16,11 @@ public class ItemManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
-	}
+        if (numItems <= 0)
+        {
+            print("can exit");
+        }
+    }
 
     public void DecrementItems()
     {

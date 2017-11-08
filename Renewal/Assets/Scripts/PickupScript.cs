@@ -46,7 +46,7 @@ public class PickupScript : MonoBehaviour {
             timer += Time.deltaTime;
             if(timer >= textDuration)
             {
-                manager.DecrementItems();
+                managerScript.DecrementItems();
                 Destroy(this.gameObject);
             }
         }

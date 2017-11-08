@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class ChoiceSceneScript : MonoBehaviour {
 
+    /*
     public string initialMsg;
     public string successMsg;
     public string failMsg;
@@ -88,4 +89,6 @@ public class ChoiceSceneScript : MonoBehaviour {
             }
         }
     }
+    
+    */
 }

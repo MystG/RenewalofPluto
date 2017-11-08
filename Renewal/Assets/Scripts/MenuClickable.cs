@@ -9,6 +9,7 @@ public class MenuClickable : MonoBehaviour {
     //public Shader lightUp;
 
     //private Renderer rend;
+    public bool condition; //true if this changes a scene when clicked, false otherwise
 
 	// Use this for initialization
 	void Start () {
@@ -22,7 +23,10 @@ public class MenuClickable : MonoBehaviour {
 
     private void OnMouseDown()
     {
-        SceneManager.LoadScene(sceneName);
+        if (condition)
+        {
+            SceneManager.LoadScene(sceneName);
+        }
     }
 
     private void OnMouseOver()

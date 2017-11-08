@@ -61,7 +61,7 @@ public class CharacterControl : MonoBehaviour {
             transform.forward = netVel.normalized;
         }
         netVel = netVel.normalized * moveSpeed;
-        rb.velocity = new Vector3(netVel.x, rb.velocity.y, netVel.z);
+        //rb.velocity = new Vector3(netVel.x, rb.velocity.y, netVel.z);
         anim.SetFloat("Speed", netVel.magnitude);
 
         //when player presses Space while character is on the ground, add a jump impulse

@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/MainMenu.unity
+=======
+- path: Assets/Renewal.unity
+>>>>>>> fd2f5255bcb79787bae093cd2ae2cfb72ac3a695
   isLoaded: 1
   isActive: 1

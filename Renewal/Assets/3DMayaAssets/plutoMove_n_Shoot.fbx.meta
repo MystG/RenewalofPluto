@@ -1,11 +1,6 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-guid: a4ed8d6dc06409d4c86fb26a5d0d6f58
-timeCreated: 1510097961
-=======
-guid: b1a5f23b1d038004cb71fd9e637c6aab
-timeCreated: 1510098298
->>>>>>> fd2f5255bcb79787bae093cd2ae2cfb72ac3a695
+guid: cecf3d03585c33f439bf049cc1eb17e3
+timeCreated: 1510098299
 licenseType: Pro
 ModelImporter:
   serializedVersion: 21
@@ -107,7 +102,7 @@ ModelImporter:
     400092: male_planet_rig_0031:spine2_CTRL
     400094: //RootNode
     4300000: male_planet_rig_0031:geo
-    7400000: Pluto_Death
+    7400000: shoot_From_Move
     9500000: //RootNode
     13700000: male_planet_rig_0031:geo
   materials:

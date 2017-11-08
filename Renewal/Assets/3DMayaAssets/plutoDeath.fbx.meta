@@ -1,14 +1,7 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: a4ed8d6dc06409d4c86fb26a5d0d6f58
-timeCreated: 1510097961
-=======
-guid: b1a5f23b1d038004cb71fd9e637c6aab
-timeCreated: 1510098298
->>>>>>> fd2f5255bcb79787bae093cd2ae2cfb72ac3a695
-licenseType: Pro
 ModelImporter:
-  serializedVersion: 21
+  serializedVersion: 22
   fileIDToRecycleName:
     100000: male_planet_rig_0031:chest
     100002: male_planet_rig_0031:chest_CTRL
@@ -110,10 +103,17 @@ ModelImporter:
     7400000: Pluto_Death
     9500000: //RootNode
     13700000: male_planet_rig_0031:geo
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pluto_mat
+    second: {fileID: 2100000, guid: 95423c766fcc21f4a9a0beee5e2c62c4, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -126,6 +126,7 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5

@@ -18,12 +18,16 @@ public class PickupScript : MonoBehaviour {
     private bool activate;
     private float timer;
 
+    public GameObject manager; //the manager that this item signals when it is picked up
+    private ItemManager managerScript;
+
 	// Use this for initialization
 	void Start () {
         visible = false;
         dist = Mathf.Infinity;
         activate = false;
         timer = 0;
+        managerScript = manager.GetComponent<ItemManager>();
     }
 	
 	// Update is called once per frame
@@ -42,7 +46,7 @@ public class PickupScript : MonoBehaviour {
             timer += Time.deltaTime;
             if(timer >= textDuration)
             {
-
+                managerScript.DecrementItems();
                 Destroy(this.gameObject);
             }
         }

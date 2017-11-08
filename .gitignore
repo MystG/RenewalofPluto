@@ -12,7 +12,7 @@
  *.unitypackage
 
  Renewal/Temp/
- Renewal/Library/
+ Renewal/Library/*
  Renewal/obj/
  Renewal/[Bb]uild/
  Renewal/[Bb]uilds/

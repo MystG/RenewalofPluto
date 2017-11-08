@@ -20,11 +20,15 @@ public class CharacterControl : MonoBehaviour {
 
     private float fireTimer;
 
+    Animator anim;
+    int shootHash = Animator.StringToHash("Firing");
+
     // Use this for initialization
     void Start () {
         rb = GetComponent<Rigidbody>();
         grounded = false;
         fireTimer = 0;
+        anim = GetComponent<Animator>();
     }
 	
 	// Update is called once per frame
@@ -58,6 +62,7 @@ public class CharacterControl : MonoBehaviour {
         }
         netVel = netVel.normalized * moveSpeed;
         rb.velocity = new Vector3(netVel.x, rb.velocity.y, netVel.z);
+        anim.SetFloat("Speed", netVel.magnitude);
 
         //when player presses Space while character is on the ground, add a jump impulse
         if (Input.GetKeyDown(KeyCode.Space) && grounded)
@@ -74,7 +79,7 @@ public class CharacterControl : MonoBehaviour {
         if (Input.GetMouseButtonDown(0) && fireTimer <= 0)
         {
             //transform.forward = cameraBearing;
-
+            anim.SetTrigger(shootHash);
             GameObject shot = Instantiate(bullet, transform.position + cameraBearing * bulletStartOffset, Quaternion.identity);
             
             //if a ray from the camera through the crosshair hits something, set the target to that point.

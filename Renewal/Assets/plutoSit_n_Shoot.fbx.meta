@@ -1,0 +1,433 @@
+fileFormatVersion: 2
+guid: cf22668b5f63d2243af0acdb417dd49a
+timeCreated: 1510147267
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: male_planet_rig_0031:chest
+    100002: male_planet_rig_0031:clavicle
+    100004: male_planet_rig_0031:head
+    100006: male_planet_rig_0031:l_elbow
+    100008: male_planet_rig_0031:l_foot
+    100010: male_planet_rig_0031:l_hand
+    100012: male_planet_rig_0031:l_hip
+    100014: male_planet_rig_0031:l_knee
+    100016: male_planet_rig_0031:l_pec
+    100018: male_planet_rig_0031:l_shoulder
+    100020: male_planet_rig_0031:neck
+    100022: male_planet_rig_0031:r_elbow
+    100024: male_planet_rig_0031:r_foot
+    100026: male_planet_rig_0031:r_hand
+    100028: male_planet_rig_0031:r_hip
+    100030: male_planet_rig_0031:r_knee
+    100032: male_planet_rig_0031:r_pec
+    100034: male_planet_rig_0031:r_shoulder
+    100036: male_planet_rig_0031:root
+    100038: male_planet_rig_0031:spine1
+    100040: male_planet_rig_0031:spine2
+    100042: //RootNode
+    400000: male_planet_rig_0031:chest
+    400002: male_planet_rig_0031:clavicle
+    400004: male_planet_rig_0031:head
+    400006: male_planet_rig_0031:l_elbow
+    400008: male_planet_rig_0031:l_foot
+    400010: male_planet_rig_0031:l_hand
+    400012: male_planet_rig_0031:l_hip
+    400014: male_planet_rig_0031:l_knee
+    400016: male_planet_rig_0031:l_pec
+    400018: male_planet_rig_0031:l_shoulder
+    400020: male_planet_rig_0031:neck
+    400022: male_planet_rig_0031:r_elbow
+    400024: male_planet_rig_0031:r_foot
+    400026: male_planet_rig_0031:r_hand
+    400028: male_planet_rig_0031:r_hip
+    400030: male_planet_rig_0031:r_knee
+    400032: male_planet_rig_0031:r_pec
+    400034: male_planet_rig_0031:r_shoulder
+    400036: male_planet_rig_0031:root
+    400038: male_planet_rig_0031:spine1
+    400040: male_planet_rig_0031:spine2
+    400042: //RootNode
+    7400000: pluto_ShootFromIdle
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'pluto_ShootFromIdle' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'male_planet_rig_0031:clavicle' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: pluto_ShootFromIdle
+      takeName: pluto_ShootFromIdle
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: male_planet_rig_0031:root
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: male_planet_rig_0031:l_hip
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: male_planet_rig_0031:r_hip
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: male_planet_rig_0031:l_knee
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: male_planet_rig_0031:r_knee
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: male_planet_rig_0031:l_foot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: male_planet_rig_0031:r_foot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: male_planet_rig_0031:spine1
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: male_planet_rig_0031:spine2
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: male_planet_rig_0031:neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: male_planet_rig_0031:head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: male_planet_rig_0031:l_pec
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: male_planet_rig_0031:r_pec
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: male_planet_rig_0031:l_shoulder
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: male_planet_rig_0031:r_shoulder
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: male_planet_rig_0031:l_elbow
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: male_planet_rig_0031:r_elbow
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: male_planet_rig_0031:l_hand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: male_planet_rig_0031:r_hand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: male_planet_rig_0031:chest
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: plutoSit_n_Shoot(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: male_planet_rig_0031:root
+      parentName: plutoSit_n_Shoot(Clone)
+      position: {x: -0.00006834648, y: 0.07029608, z: -0.00075083703}
+      rotation: {x: 0, y: -0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: male_planet_rig_0031:l_hip
+      parentName: male_planet_rig_0031:root
+      position: {x: 0.01034716, y: -0.01145978, z: -0.0003003348}
+      rotation: {x: -0.09225428, y: 0.00784774, z: 0.9952241, w: 0.030929562}
+      scale: {x: 1, y: 1, z: 1}
+    - name: male_planet_rig_0031:l_knee
+      parentName: male_planet_rig_0031:l_hip
+      position: {x: -0.021794256, y: 0.00046011328, z: 0.0013515066}
+      rotation: {x: 0.032789174, y: -0.20191371, z: -0.0027357594, w: 0.9788505}
+      scale: {x: 1, y: 1, z: 1}
+    - name: male_planet_rig_0031:l_foot
+      parentName: male_planet_rig_0031:l_knee
+      position: {x: -0.030124275, y: 0.00056392, z: 0.0001501674}
+      rotation: {x: -0.018437834, y: 0.017031442, z: -0.693773, w: 0.7197562}
+      scale: {x: 1, y: 1, z: 1}
+    - name: male_planet_rig_0031:r_hip
+      parentName: male_planet_rig_0031:root
+      position: {x: 0.010347176, y: 0.011459746, z: -0.000300333}
+      rotation: {x: 0.995285, y: 0.03909677, z: 0.088288896, w: -0.009180817}
+      scale: {x: 1, y: 1, z: 1}
+    - name: male_planet_rig_0031:r_knee
+      parentName: male_planet_rig_0031:r_hip
+      position: {x: 0.02179422, y: -0.00046014818, z: -0.001351505}
+      rotation: {x: 0.012384734, y: -0.20110366, z: 0.011638321, w: 0.97942257}
+      scale: {x: 1, y: 1, z: 1}
+    - name: male_planet_rig_0031:r_foot
+      parentName: male_planet_rig_0031:r_knee
+      position: {x: 0.030124301, y: -0.0005639715, z: -0.00015016699}
+      rotation: {x: -0.021300746, y: 0.019871809, z: -0.69486886, w: 0.7185462}
+      scale: {x: 1, y: 1, z: 1}
+    - name: male_planet_rig_0031:spine1
+      parentName: male_planet_rig_0031:root
+      position: {x: -0.015220323, y: 0.00017252748, z: -2.6619286e-12}
+      rotation: {x: -3.4694474e-18, y: -0.017452406, z: 2.7458195e-27, w: 0.9998477}
+      scale: {x: 1, y: 1, z: 1}
+    - name: male_planet_rig_0031:spine2
+      parentName: male_planet_rig_0031:spine1
+      position: {x: -0.013079674, y: -0.00020904193, z: 2.6619286e-12}
+      rotation: {x: -3.469447e-18, y: -0.026176948, z: -3.8033087e-27, w: 0.99965733}
+      scale: {x: 1, y: 1, z: 1}
+    - name: male_planet_rig_0031:chest
+      parentName: male_planet_rig_0031:spine2
+      position: {x: -0.013796153, y: 0.000036514448, z: 0}
+      rotation: {x: -6.938895e-18, y: -0.034899496, z: -9.7675525e-27, w: 0.99939084}
+      scale: {x: 1, y: 1, z: 1}
+    - name: male_planet_rig_0031:clavicle
+      parentName: male_planet_rig_0031:chest
+      position: {x: -0.019140134, y: 3.2438237e-18, z: 0}
+      rotation: {x: 0.00014616038, y: 0.13052417, z: 0.0055816406, w: 0.99142945}
+      scale: {x: 1, y: 1, z: 1}
+    - name: male_planet_rig_0031:neck
+      parentName: male_planet_rig_0031:clavicle
+      position: {x: -0.005297683, y: -0.000004834309, z: 0}
+      rotation: {x: -0.06975647, y: 1.3877788e-17, z: 8.9209395e-26, w: 0.9975641}
+      scale: {x: 1, y: 1, z: 1}
+    - name: male_planet_rig_0031:head
+      parentName: male_planet_rig_0031:neck
+      position: {x: -0.06772452, y: 1.5037864e-17, z: 0}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: male_planet_rig_0031:l_pec
+      parentName: male_planet_rig_0031:chest
+      position: {x: -0.009301102, y: -0.00998745, z: 0.00075083703}
+      rotation: {x: -0.055478964, y: 0.1650708, z: 0.704927, w: 0.6875694}
+      scale: {x: 1, y: 1, z: 1}
+    - name: male_planet_rig_0031:l_shoulder
+      parentName: male_planet_rig_0031:l_pec
+      position: {x: -0.015139903, y: 0, z: 0}
+      rotation: {x: 0.020093711, y: -0.13212842, z: 0.0027787092, w: 0.9910251}
+      scale: {x: 1, y: 1, z: 1}
+    - name: male_planet_rig_0031:l_elbow
+      parentName: male_planet_rig_0031:l_shoulder
+      position: {x: -0.03260902, y: 0, z: 0}
+      rotation: {x: 0.041182928, y: 0.033474963, z: -0.016850865, w: 0.9984485}
+      scale: {x: 1, y: 1, z: 1}
+    - name: male_planet_rig_0031:l_hand
+      parentName: male_planet_rig_0031:l_elbow
+      position: {x: -0.036452226, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: male_planet_rig_0031:r_pec
+      parentName: male_planet_rig_0031:chest
+      position: {x: -0.009300973, y: 0.0099874465, z: 0.00075083703}
+      rotation: {x: 0.704927, y: 0.704927, z: -0.05547896, w: -0.05547896}
+      scale: {x: 1, y: 1, z: 1}
+    - name: male_planet_rig_0031:r_shoulder
+      parentName: male_planet_rig_0031:r_pec
+      position: {x: 0.0151399, y: 0, z: 0}
+      rotation: {x: 0.44244298, y: -0.017773712, z: 0.023905, w: 0.8963018}
+      scale: {x: 1, y: 1, z: 1}
+    - name: male_planet_rig_0031:r_elbow
+      parentName: male_planet_rig_0031:r_shoulder
+      position: {x: 0.032609, y: 0, z: 0}
+      rotation: {x: -0.003978281, y: 0.015331078, z: -0.010007631, w: 0.99982446}
+      scale: {x: 1, y: 1, z: 1}
+    - name: male_planet_rig_0031:r_hand
+      parentName: male_planet_rig_0031:r_elbow
+      position: {x: 0.0364523, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: b2ad0a98266fffc4b807a026ca292a54,
+    type: 3}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

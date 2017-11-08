@@ -112,6 +112,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &390767995 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1153137682070186, guid: c3c90697280a3f345ad1f20f9ef78ec8,
+    type: 2}
+  m_PrefabInternal: {fileID: 500004533}
 --- !u!1001 &500004533
 Prefab:
   m_ObjectHideFlags: 0
@@ -149,7 +154,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4013074559157282, guid: c3c90697280a3f345ad1f20f9ef78ec8, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4013074559157282, guid: c3c90697280a3f345ad1f20f9ef78ec8, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c3c90697280a3f345ad1f20f9ef78ec8, type: 2}
@@ -165,6 +174,7 @@ GameObject:
   - component: {fileID: 1293887606}
   - component: {fileID: 1293887605}
   - component: {fileID: 1293887604}
+  - component: {fileID: 1293887608}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -228,12 +238,29 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1293887603}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalPosition: {x: 303.1, y: 12.1, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1293887608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1293887603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f739414058b2fa341a5c4b5756733a20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  yFocus: 3
+  upBounds: 5
+  downBounds: 1
+  maxBackDistance: 15
+  maxRotateSpeed: 45
+  player: {fileID: 390767995}
 --- !u!1001 &1765727467
 Prefab:
   m_ObjectHideFlags: 0

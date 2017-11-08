@@ -830,14 +830,14 @@ RectTransform:
   m_GameObject: {fileID: 470355388}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 17.9}
-  m_LocalScale: {x: 0.04404776, y: 0.050918255, z: 0.06351543}
+  m_LocalScale: {x: 0.10823771, y: 0.09242671, z: 0.115293086}
   m_Children: []
   m_Father: {fileID: 380156650}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -198.65, y: -185.84}
+  m_AnchoredPosition: {x: -193.57, y: -187.51}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &470355390
@@ -866,13 +866,13 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: 
 --- !u!222 &470355391
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1134,7 +1134,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef890abfe80738946bcf9241c159c378, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textfile: {fileID: 0}
+  textfile: {fileID: 4900000, guid: cee83de57d7c38245b1d5010b7df729c, type: 3}
   textLines: []
 --- !u!4 &1442044149
 Transform:
@@ -1160,6 +1160,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08e4d08bddb4cb545bb629e8132169b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  textBox: {fileID: 1825698991}
+  theText: {fileID: 470355390}
+  textfiles: {fileID: 4900000, guid: cee83de57d7c38245b1d5010b7df729c, type: 3}
+  textLines: []
+  currentLine: 1
+  endAtLine: 3
+  player: {fileID: 0}
 --- !u!1001 &1486365729
 Prefab:
   m_ObjectHideFlags: 0
@@ -1197,6 +1204,10 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4013074559157282, guid: c3c90697280a3f345ad1f20f9ef78ec8, type: 2}
       propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1153137682070186, guid: c3c90697280a3f345ad1f20f9ef78ec8, type: 2}
+      propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []

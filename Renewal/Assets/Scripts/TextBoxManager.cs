@@ -12,15 +12,15 @@ public class TextBoxManager : MonoBehaviour {
 	public int currentLine;
 	public int endAtLine;
 	
-	public PlayerController player;
+	public CharacterController player;
 	// Use this for initialization
 	void Start () {
-		player = FindObjectOfType<PlayerController>();
-		if(textfile != null){
-			textLines = (textfile.text.Split('\n'));
+		player = FindObjectOfType<CharacterController>();
+		if(textfiles != null){
+			textLines = (textfiles.text.Split('\n'));
 		}
 		if(endAtLine == 0){
-			endAtLine = textLines.length - 1;
+			endAtLine = textLines.Length - 1;
 		}
 	}
 	

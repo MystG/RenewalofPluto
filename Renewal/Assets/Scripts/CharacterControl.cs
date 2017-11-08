@@ -23,7 +23,7 @@ public class CharacterControl : MonoBehaviour {
     // Use this for initialization
     void Start () {
         rb = GetComponent<Rigidbody>();
-        grounded = false;
+        grounded = true;
         fireTimer = 0;
     }
 	

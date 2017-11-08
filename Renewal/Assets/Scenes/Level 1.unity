@@ -495,7 +495,7 @@ MonoBehaviour:
   yFocus: 7.5
   upBounds: 5
   downBounds: 1
-  maxBackDistance: 15
+  maxBackDistance: 9
   maxRotateSpeed: 45
   player: {fileID: 2064949107}
 --- !u!1001 &1564072129
@@ -765,7 +765,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db70d396285ac4a4bbd7f0d725a722b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 30
+  moveSpeed: 25
   jumpForce: 0
   fallAccel: 30
   crosshair: {fileID: 0}

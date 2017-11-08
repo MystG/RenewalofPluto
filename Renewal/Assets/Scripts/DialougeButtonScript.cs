@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class DialougeButtonScript : MonoBehaviour {
 
+    /*
     public bool isSuccessButton;
     public string optionText;
     public ChoiceSceneScript controller;
@@ -32,4 +33,5 @@ public class DialougeButtonScript : MonoBehaviour {
         optionText = txt;
         controller = con;
     }
+    */
 }

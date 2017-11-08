@@ -1,0 +1,182 @@
+fileFormatVersion: 2
+guid: b5cc92e35d439e749b6843f6b20f5551
+timeCreated: 1510110171
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: male_planet_rig_0031:chest
+    100002: male_planet_rig_0031:chest_CTRL
+    100004: male_planet_rig_0031:clavicle
+    100006: male_planet_rig_0031:geo
+    100008: male_planet_rig_0031:head
+    100010: male_planet_rig_0031:head_CTRL
+    100012: male_planet_rig_0031:IK_Handles
+    100014: male_planet_rig_0031:l_arm_CTRL
+    100016: male_planet_rig_0031:L_Arm_IK_Handle
+    100018: male_planet_rig_0031:l_elbow
+    100020: male_planet_rig_0031:l_elbow_CTRL
+    100022: male_planet_rig_0031:l_foot
+    100024: male_planet_rig_0031:l_foot_CTRL
+    100026: male_planet_rig_0031:l_hand
+    100028: male_planet_rig_0031:l_hip
+    100030: male_planet_rig_0031:l_knee
+    100032: male_planet_rig_0031:l_knee_CTRL
+    100034: male_planet_rig_0031:L_Leg_IK_Handle
+    100036: male_planet_rig_0031:l_pec
+    100038: male_planet_rig_0031:l_pec_CTRL
+    100040: male_planet_rig_0031:l_shoulder
+    100042: male_planet_rig_0031:l_shoulder_CTRL
+    100044: male_planet_rig_0031:master_CTRL
+    100046: male_planet_rig_0031:neck
+    100048: male_planet_rig_0031:neck_CTRL
+    100050: male_planet_rig_0031:pelvic_CTRL
+    100052: male_planet_rig_0031:R_Arm_IK_Handle
+    100054: male_planet_rig_0031:r_elbow
+    100056: male_planet_rig_0031:r_elbow_CTRL
+    100058: male_planet_rig_0031:r_foot
+    100060: male_planet_rig_0031:r_foot_CTRL
+    100062: male_planet_rig_0031:r_hand
+    100064: male_planet_rig_0031:r_hand_CTRL
+    100066: male_planet_rig_0031:r_hip
+    100068: male_planet_rig_0031:r_knee
+    100070: male_planet_rig_0031:r_knee_CTRL
+    100072: male_planet_rig_0031:R_Leg_IK_Handle
+    100074: male_planet_rig_0031:r_pec
+    100076: male_planet_rig_0031:r_pec_CTRL
+    100078: male_planet_rig_0031:r_shoulder
+    100080: male_planet_rig_0031:r_shoulder_CTRL
+    100082: male_planet_rig_0031:root
+    100084: male_planet_rig_0031:root_CTRL
+    100086: male_planet_rig_0031:spine1
+    100088: male_planet_rig_0031:spine1_CTRL
+    100090: male_planet_rig_0031:spine2
+    100092: male_planet_rig_0031:spine2_CTRL
+    100094: //RootNode
+    400000: male_planet_rig_0031:chest
+    400002: male_planet_rig_0031:chest_CTRL
+    400004: male_planet_rig_0031:clavicle
+    400006: male_planet_rig_0031:geo
+    400008: male_planet_rig_0031:head
+    400010: male_planet_rig_0031:head_CTRL
+    400012: male_planet_rig_0031:IK_Handles
+    400014: male_planet_rig_0031:l_arm_CTRL
+    400016: male_planet_rig_0031:L_Arm_IK_Handle
+    400018: male_planet_rig_0031:l_elbow
+    400020: male_planet_rig_0031:l_elbow_CTRL
+    400022: male_planet_rig_0031:l_foot
+    400024: male_planet_rig_0031:l_foot_CTRL
+    400026: male_planet_rig_0031:l_hand
+    400028: male_planet_rig_0031:l_hip
+    400030: male_planet_rig_0031:l_knee
+    400032: male_planet_rig_0031:l_knee_CTRL
+    400034: male_planet_rig_0031:L_Leg_IK_Handle
+    400036: male_planet_rig_0031:l_pec
+    400038: male_planet_rig_0031:l_pec_CTRL
+    400040: male_planet_rig_0031:l_shoulder
+    400042: male_planet_rig_0031:l_shoulder_CTRL
+    400044: male_planet_rig_0031:master_CTRL
+    400046: male_planet_rig_0031:neck
+    400048: male_planet_rig_0031:neck_CTRL
+    400050: male_planet_rig_0031:pelvic_CTRL
+    400052: male_planet_rig_0031:R_Arm_IK_Handle
+    400054: male_planet_rig_0031:r_elbow
+    400056: male_planet_rig_0031:r_elbow_CTRL
+    400058: male_planet_rig_0031:r_foot
+    400060: male_planet_rig_0031:r_foot_CTRL
+    400062: male_planet_rig_0031:r_hand
+    400064: male_planet_rig_0031:r_hand_CTRL
+    400066: male_planet_rig_0031:r_hip
+    400068: male_planet_rig_0031:r_knee
+    400070: male_planet_rig_0031:r_knee_CTRL
+    400072: male_planet_rig_0031:R_Leg_IK_Handle
+    400074: male_planet_rig_0031:r_pec
+    400076: male_planet_rig_0031:r_pec_CTRL
+    400078: male_planet_rig_0031:r_shoulder
+    400080: male_planet_rig_0031:r_shoulder_CTRL
+    400082: male_planet_rig_0031:root
+    400084: male_planet_rig_0031:root_CTRL
+    400086: male_planet_rig_0031:spine1
+    400088: male_planet_rig_0031:spine1_CTRL
+    400090: male_planet_rig_0031:spine2
+    400092: male_planet_rig_0031:spine2_CTRL
+    400094: //RootNode
+    4300000: male_planet_rig_0031:geo
+    7400000: pluto_ShootFromIdle
+    9500000: //RootNode
+    13700000: male_planet_rig_0031:geo
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

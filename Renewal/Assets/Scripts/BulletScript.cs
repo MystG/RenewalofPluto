@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class BulletScript : MonoBehaviour {
 
-	// Use this for initialization
+    // Use this for initialization
+    public float damage;
+
 	void Start () {
 		
 	}
@@ -16,6 +18,12 @@ public class BulletScript : MonoBehaviour {
 
     void OnCollisionEnter(Collision other)
     {
+        if (other.gameObject.tag == "Enemy")
+        {
+            other.gameObject.GetComponent<aiEasy>().damageEnemy(damage);
+
+            Destroy(this.gameObject);
+        }
         Destroy(this.gameObject);
     }
 }

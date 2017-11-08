@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class aiEasy : MonoBehaviour {
 
+    public float curHealth;
     public float enemyMovementSpeed;
     public float fpsTargetDistance;
     public float enemyLookDistance;
@@ -12,16 +13,22 @@ public class aiEasy : MonoBehaviour {
     public Transform fpsTarget;
     Rigidbody theRigidBody;
     Renderer myRender;
-    
+    public Animator anim;
+
+    private bool active;
     // Use this for initialization
 	void Start () {
         myRender = GetComponent<Renderer>();
         theRigidBody = GetComponent<Rigidbody>();
+        anim = GetComponent<Animator>();
+        active = true;
 	}
 	
 	// Update is called once per frame
 	void FixedUpdate () {
         //attack radius logic  
+        if (!active) return;
+
         fpsTargetDistance = Vector3.Distance(fpsTarget.position, transform.position);
         if (fpsTargetDistance<enemyLookDistance)
         {
@@ -35,6 +42,20 @@ public class aiEasy : MonoBehaviour {
             enemyAttack();
         }
 	}
+
+    public void damageEnemy(float damagePerHit)
+    {
+        curHealth = curHealth - damagePerHit;
+        if (curHealth <= 0 && active)
+        {
+            anim.SetBool("isDying", true);
+            anim.SetBool("isIdle", false);
+            anim.SetBool("isWalking", false);
+            anim.SetBool("isAttacking", false);
+            DestroyObject(this.gameObject, 3.0f);
+            active = false;
+        }
+    }
 
     void lookAtPlayer()
     {

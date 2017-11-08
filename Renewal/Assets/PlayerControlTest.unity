@@ -204,11 +204,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f739414058b2fa341a5c4b5756733a20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  yFocus: 3
-  upBounds: 5
-  downBounds: 1
-  maxBackDistance: 10
-  maxRotateSpeed: 30
+  yFocus: 0
+  upBounds: 0
+  downBounds: 0
+  maxBackDistance: 0
+  maxRotateSpeed: 45
   player: {fileID: 598029596}
 --- !u!1 &235106120
 GameObject:

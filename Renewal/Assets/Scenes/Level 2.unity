@@ -331,9 +331,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   yFocus: 3
-  upBounds: 5
-  downBounds: 1
-  maxBackDistance: 15
+  upBounds: 0
+  downBounds: 0
+  maxBackDistance: 0
   maxRotateSpeed: 45
   player: {fileID: 1586350357}
 --- !u!1 &714271238

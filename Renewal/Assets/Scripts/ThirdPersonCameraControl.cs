@@ -58,8 +58,10 @@ public class ThirdPersonCameraControl : MonoBehaviour {
         }
         if (vert!=0)
         {
-            transform.RotateAround(focuspoint, transform.right, -vert * maxRotateSpeed * Time.deltaTime);
-            focusToCamera = (transform.position - focuspoint).normalized;
+            //uncomment this to allow camera to move up and down, which ruins 1st person view
+
+            //transform.RotateAround(focuspoint, transform.right, -vert * maxRotateSpeed * Time.deltaTime);
+            //focusToCamera = (transform.position - focuspoint).normalized;
         }
 
         //have the camera look at focuspoint

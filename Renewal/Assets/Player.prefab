@@ -123,7 +123,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db70d396285ac4a4bbd7f0d725a722b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 3
+  moveSpeed: 20
   jumpForce: 10
   fallAccel: 30
   crosshair: {fileID: 2800000, guid: db59ecb097582b0448dddd165d354617, type: 3}

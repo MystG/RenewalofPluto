@@ -52,7 +52,6 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -68,7 +67,6 @@ MeshRenderer:
   m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
   m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -110,7 +108,7 @@ MonoBehaviour:
   activateTime: 3
   destination: {fileID: 0}
   player: {fileID: 1153137682070186, guid: c3c90697280a3f345ad1f20f9ef78ec8, type: 2}
-  teleportPointOffest: {x: 0, y: 1, z: 0}
+  teleportPointOffest: {x: 0, y: 5, z: 0}
   activeCol: {r: 0.94482756, g: 1, b: 0, a: 0}
   chargingCol: {r: 1, g: 0, b: 0, a: 0}
   inactiveCol: {r: 0.63235295, g: 0, b: 0.56257606, a: 0}

@@ -1,0 +1,128 @@
+fileFormatVersion: 2
+guid: cc7ee5deb9bacba4f8fa0f5dd7161485
+timeCreated: 1510142343
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: male_planet_rig_0031:chest
+    100002: male_planet_rig_0031:clavicle
+    100004: male_planet_rig_0031:head
+    100006: male_planet_rig_0031:l_elbow
+    100008: male_planet_rig_0031:l_foot
+    100010: male_planet_rig_0031:l_hand
+    100012: male_planet_rig_0031:l_hip
+    100014: male_planet_rig_0031:l_knee
+    100016: male_planet_rig_0031:l_pec
+    100018: male_planet_rig_0031:l_shoulder
+    100020: male_planet_rig_0031:neck
+    100022: male_planet_rig_0031:r_elbow
+    100024: male_planet_rig_0031:r_foot
+    100026: male_planet_rig_0031:r_hand
+    100028: male_planet_rig_0031:r_hip
+    100030: male_planet_rig_0031:r_knee
+    100032: male_planet_rig_0031:r_pec
+    100034: male_planet_rig_0031:r_shoulder
+    100036: male_planet_rig_0031:root
+    100038: male_planet_rig_0031:spine1
+    100040: male_planet_rig_0031:spine2
+    100042: //RootNode
+    400000: male_planet_rig_0031:chest
+    400002: male_planet_rig_0031:clavicle
+    400004: male_planet_rig_0031:head
+    400006: male_planet_rig_0031:l_elbow
+    400008: male_planet_rig_0031:l_foot
+    400010: male_planet_rig_0031:l_hand
+    400012: male_planet_rig_0031:l_hip
+    400014: male_planet_rig_0031:l_knee
+    400016: male_planet_rig_0031:l_pec
+    400018: male_planet_rig_0031:l_shoulder
+    400020: male_planet_rig_0031:neck
+    400022: male_planet_rig_0031:r_elbow
+    400024: male_planet_rig_0031:r_foot
+    400026: male_planet_rig_0031:r_hand
+    400028: male_planet_rig_0031:r_hip
+    400030: male_planet_rig_0031:r_knee
+    400032: male_planet_rig_0031:r_pec
+    400034: male_planet_rig_0031:r_shoulder
+    400036: male_planet_rig_0031:root
+    400038: male_planet_rig_0031:spine1
+    400040: male_planet_rig_0031:spine2
+    400042: //RootNode
+    7400000: plutoMove
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

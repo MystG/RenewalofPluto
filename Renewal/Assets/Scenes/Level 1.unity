@@ -229,21 +229,6 @@ Prefab:
       propertyPath: m_Name
       value: TempPickup (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 114151262789705928, guid: 0b269560afeb462409a6a4b3a87de124,
-        type: 2}
-      propertyPath: startL
-      value: 17
-      objectReference: {fileID: 0}
-    - target: {fileID: 114151262789705928, guid: 0b269560afeb462409a6a4b3a87de124,
-        type: 2}
-      propertyPath: endL
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 114151262789705928, guid: 0b269560afeb462409a6a4b3a87de124,
-        type: 2}
-      propertyPath: textManager
-      value: 
-      objectReference: {fileID: 1742218934}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0b269560afeb462409a6a4b3a87de124, type: 2}
   m_IsPrefabParent: 0
@@ -479,21 +464,6 @@ Prefab:
       propertyPath: message
       value: You Got One of Two Needed Items
       objectReference: {fileID: 0}
-    - target: {fileID: 114151262789705928, guid: 0b269560afeb462409a6a4b3a87de124,
-        type: 2}
-      propertyPath: startL
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 114151262789705928, guid: 0b269560afeb462409a6a4b3a87de124,
-        type: 2}
-      propertyPath: endL
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 114151262789705928, guid: 0b269560afeb462409a6a4b3a87de124,
-        type: 2}
-      propertyPath: textManager
-      value: 
-      objectReference: {fileID: 1742218934}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0b269560afeb462409a6a4b3a87de124, type: 2}
   m_IsPrefabParent: 0
@@ -535,8 +505,8 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 10
-    m_FontStyle: 1
+    m_FontSize: 11
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 218
@@ -544,7 +514,7 @@ MonoBehaviour:
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 1
+    m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: NEPTUNE
 --- !u!222 &928588508
@@ -560,7 +530,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 928588506}
   m_LocalRotation: {x: 0.16573559, y: -0, z: -0, w: 0.98617023}
-  m_LocalPosition: {x: 0, y: 0, z: 97}
+  m_LocalPosition: {x: 0, y: 0, z: 90}
   m_LocalScale: {x: 2.3893945, y: 2.3893936, z: 2.3893936}
   m_Children: []
   m_Father: {fileID: 1778834965}
@@ -568,7 +538,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 19.080002, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -37.814, y: -106}
+  m_AnchoredPosition: {x: -37.814, y: -125}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1280163005
@@ -837,7 +807,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textBox: {fileID: 560013042}
   theText: {fileID: 928588507}
-  textfiles: {fileID: 4900000, guid: fb4e134b02341bd45a5d86ce1424a8a9, type: 3}
+  textfiles: {fileID: 4900000, guid: cee83de57d7c38245b1d5010b7df729c, type: 3}
   textLines: []
   currentLine: 0
   endAtLine: 1
@@ -920,21 +890,6 @@ Prefab:
       propertyPath: m_Name
       value: TempPickup (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 114151262789705928, guid: 0b269560afeb462409a6a4b3a87de124,
-        type: 2}
-      propertyPath: startL
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 114151262789705928, guid: 0b269560afeb462409a6a4b3a87de124,
-        type: 2}
-      propertyPath: endL
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 114151262789705928, guid: 0b269560afeb462409a6a4b3a87de124,
-        type: 2}
-      propertyPath: textManager
-      value: 
-      objectReference: {fileID: 1742218934}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0b269560afeb462409a6a4b3a87de124, type: 2}
   m_IsPrefabParent: 0

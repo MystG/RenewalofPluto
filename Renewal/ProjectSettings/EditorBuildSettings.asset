@@ -4,4 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/TeleportTestScene.unity
+    guid: 73f8eabe2f2667240b8ce95d6781d3a6
+  - enabled: 1
+    path: Assets/PlayerControlTest.unity
+    guid: 0c3e93e5dc87eef4aa169ecff6b45e98
